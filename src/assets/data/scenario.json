@@ -228,7 +228,7 @@
                                                                                                                                                     }
                                                                                                                                                   ],
                                                                                                                                                   "_mark": "mark_2195g6s5pt8jkrjs4wor",
-                                                                                                                                                  "_content": "[LABEL Сигареты.][VIDEO 301][AUDIO Sigarets][BGNDVIDEO 202,203,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                                                                                  "_content": "[LABEL Сигареты.][VIDEO 301][AUDIO Sigarets][BGNDVIDEO 202||203||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                                                                                 }
                                                                                                                                               ],
                                                                                                                                               "_mark": "what_is_in_pocket",
@@ -378,7 +378,7 @@
                                                                                                                     }
                                                                                                                   ],
                                                                                                                   "_mark": "mark_q4wz3hh7wgkovhit63kh",
-                                                                                                                  "_content": "[LABEL Ну... в приниципе можно... Сейчас схожу!][VIDEO 301][AUDIO OkWillGoForMoney][BGNDVIDEO 201,202,203,204,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                                                  "_content": "[LABEL Ну... в приниципе можно... Сейчас схожу!][VIDEO 301][AUDIO OkWillGoForMoney][BGNDVIDEO 201||202||203||204||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                                                 }
                                                                                                               ],
                                                                                                               "_mark": "",
@@ -386,7 +386,7 @@
                                                                                                             }
                                                                                                           ],
                                                                                                           "_mark": "mark_d13gt194mpz5o20k13wu",
-                                                                                                          "_content": "[LABEL Я вообще на нуле...][VIDEO 303][AUDIO IhaveNoMoney][BGNDVIDEO 201,202,203,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                                          "_content": "[LABEL Я вообще на нуле...][VIDEO 303][AUDIO IhaveNoMoney][BGNDVIDEO 201||202||203||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                                         }
                                                                                                       ],
                                                                                                       "_mark": "",
@@ -514,7 +514,7 @@
                                                                                                             }
                                                                                                           ],
                                                                                                           "_mark": "mark_1t2em1k98ukyn64ewb8n",
-                                                                                                          "_content": "[LABEL У корешей своих попроси.][VIDEO 304][AUDIO AskYourFriendsForMoney][BGNDVIDEO 204,205,206][SOUNDFX PoliceSerene][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                                          "_content": "[LABEL У корешей своих попроси.][VIDEO 304][AUDIO AskYourFriendsForMoney][BGNDVIDEO 204||205||206][SOUNDFX PoliceSerene][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                                         }
                                                                                                       ],
                                                                                                       "_mark": "lend_me_50",
@@ -522,7 +522,7 @@
                                                                                                     }
                                                                                                   ],
                                                                                                   "_mark": "mark_pw9m6he5d82ssazoxsq4",
-                                                                                                  "_content": "[LABEL Нее, не нужны.][VIDEO 303][AUDIO NoNeed][BGNDVIDEO 201,202,203,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                                  "_content": "[LABEL Нее, не нужны.][VIDEO 303][AUDIO NoNeed][BGNDVIDEO 201||202||203||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                                 }
                                                                                               ],
                                                                                               "_mark": "",
@@ -542,7 +542,7 @@
                                                                                                     }
                                                                                                   ],
                                                                                                   "_mark": "mark_116am041vs5p9dxk57o7",
-                                                                                                  "_content": "[LABEL Даже не думал об этом.][VIDEO 303][AUDIO NotThinkingAboutIt][BGNDVIDEO 201,202,203,204,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                                  "_content": "[LABEL Даже не думал об этом.][VIDEO 303][AUDIO NotThinkingAboutIt][BGNDVIDEO 201||202||203||204||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                                 }
                                                                                               ],
                                                                                               "_mark": "are_you_offend_me",
@@ -550,7 +550,7 @@
                                                                                             }
                                                                                           ],
                                                                                           "_mark": "mark_0uc76c4092aud5g686o3",
-                                                                                          "_content": "[LABEL Нет, спасибо!][VIDEO 303][AUDIO NoThanx][BGNDVIDEO 201,202,203,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                          "_content": "[LABEL Нет, спасибо!][VIDEO 303][AUDIO NoThanx][BGNDVIDEO 201||202||203||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                         }
                                                                                       ],
                                                                                       "_mark": "",
@@ -578,7 +578,7 @@
                                                                                     }
                                                                                   ],
                                                                                   "_mark": "mark_7v926h0b08cnim58z3l4",
-                                                                                  "_content": "[LABEL А я то тут причем?][VIDEO 302][AUDIO AndWhatAboutMyself][BGNDVIDEO 201,202,203,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                  "_content": "[LABEL А я то тут причем?][VIDEO 302][AUDIO AndWhatAboutMyself][BGNDVIDEO 201||202||203||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                 }
                                                                               ],
                                                                               "_mark": "",
@@ -598,7 +598,7 @@
                                                                                     }
                                                                                   ],
                                                                                   "_mark": "mark_e27vukma350uj9m2h14r",
-                                                                                  "_content": "[LABEL У меня у самого друг в больнице лежит, может ты мне поможешь?][VIDEO 301][AUDIO MyFrientAlsoInHospital][BGNDVIDEO 201,202,203,204,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                  "_content": "[LABEL У меня у самого друг в больнице лежит, может ты мне поможешь?][VIDEO 301][AUDIO MyFrientAlsoInHospital][BGNDVIDEO 201||202||203||204||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                 }
                                                                               ],
                                                                               "_mark": "friend_is_in_hospital",
@@ -616,7 +616,7 @@
                                                                             }
                                                                           ],
                                                                           "_mark": "EPISODE2",
-                                                                          "_content": "[LABEL Какое дело?][VIDEO 301][AUDIO WhatDeal][BGNDVIDEO 201,202,203,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                          "_content": "[LABEL Какое дело?][VIDEO 301][AUDIO WhatDeal][BGNDVIDEO 201||202||203||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                         }
                                                                       ],
                                                                       "_mark": "",
@@ -768,7 +768,7 @@
                                                                                             }
                                                                                           ],
                                                                                           "_mark": "mark_5t499dl5349w7281ba36",
-                                                                                          "_content": "[LABEL Суровая.][VIDEO 301][AUDIO FuryGirlFriend][BGNDVIDEO 201,202,203,204,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                          "_content": "[LABEL Суровая.][VIDEO 301][AUDIO FuryGirlFriend][BGNDVIDEO 201||202||203||204||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                         }
                                                                                       ],
                                                                                       "_mark": "",
@@ -776,7 +776,7 @@
                                                                                     }
                                                                                   ],
                                                                                   "_mark": "mark_gm00y85r6nj65fkta23l",
-                                                                                  "_content": "[LABEL Да, у меня подруга в женской лиге выступает.][VIDEO 301][AUDIO MyGirlFriendIsInBoxLeague][BGNDVIDEO 201,202,203,204,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                  "_content": "[LABEL Да, у меня подруга в женской лиге выступает.][VIDEO 301][AUDIO MyGirlFriendIsInBoxLeague][BGNDVIDEO 201||202||203||204||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                 }
                                                                               ],
                                                                               "_mark": "",
@@ -808,7 +808,7 @@
                                                                                     }
                                                                                   ],
                                                                                   "_mark": "mark_o22cv2h1w49576n41sn3",
-                                                                                  "_content": "[LABEL Мой брат на мастера спорта сегодня сдает.][VIDEO 301][AUDIO MyBrotherWillBeMaster][BGNDVIDEO 201,202,203,204,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                                  "_content": "[LABEL Мой брат на мастера спорта сегодня сдает.][VIDEO 301][AUDIO MyBrotherWillBeMaster][BGNDVIDEO 201||202||203||204||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                                 }
                                                                               ],
                                                                               "_mark": "",
@@ -820,7 +820,7 @@
                                                                             }
                                                                           ],
                                                                           "_mark": "mark_8330338yev9qo86y3r72",
-                                                                          "_content": "[LABEL На соревнованиях по боксу.][VIDEO 301][AUDIO ToBoxCampitition][BGNDVIDEO 201,202,203,204,205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
+                                                                          "_content": "[LABEL На соревнованиях по боксу.][VIDEO 301][AUDIO ToBoxCampitition][BGNDVIDEO 201||202||203||204||205][TIMEEXPIRED 316][ANSWERTIME 30][ANSWERSORDER random]"
                                                                         }
                                                                       ],
                                                                       "_mark": "",
@@ -903,7 +903,7 @@
                                                               "_content": "[LABEL Дай мобилу посмотреть за денежку.]"
                                                             }
                                                           ],
-                                                          "_mark": "EPISODE1",
+                                                          "_mark": "EPISODE1,goto_looser",
                                                           "_content": "[LABEL ...][VIDEO 109][AUDIO silent_8.5][BGNDVIDEO 205][TIMEEXPIRED 316][ANSWERTIME 30]"
                                                         }
                                                       ],
@@ -917,10 +917,6 @@
                                               ],
                                               "_mark": "i_am_asking",
                                               "_content": "[LABEL Да ты погоди, я спрошу и пойдешь.]"
-                                            },
-                                            {
-                                              "_mark": "",
-                                              "_content": "[LABEL ][GOTO have_a_business]"
                                             },
                                             {
                                               "node": [
@@ -948,7 +944,7 @@
                                         }
                                       ],
                                       "_mark": "",
-                                      "_content": "[LABEL Нет я, твою мать! Сюда подойди.]"
+                                      "_content": "[LABEL Да, ты. Сюда подойди.]"
                                     }
                                   ],
                                   "_mark": "mark_4s010495xvog7u23b514",
@@ -983,10 +979,6 @@
                                             {
                                               "_mark": "",
                                               "_content": "[LABEL ][GOTO i_am_asking]"
-                                            },
-                                            {
-                                              "_mark": "",
-                                              "_content": "[LABEL ][GOTO have_a_business]"
                                             },
                                             {
                                               "_mark": "",
@@ -1058,7 +1050,7 @@
             }
           ],
           "_mark": "START",
-          "_content": "[LABEL Sim-Gop 2. Simulator gopa, part 2.{this.lang='ru';''}{script initSystem}][BGNDIMAGE Intro.jpg][MUSIC intro][ANSWERSORDER OFF]"
+          "_content": "[LABEL Sim-Gop 2. Simulator gopa, part 2.{this.lang='ru';''}{script initSystem}][BGNDIMAGE Intro.jpg][MUSIC Intro][ANSWERSORDER OFF]"
         }
       ]
     }

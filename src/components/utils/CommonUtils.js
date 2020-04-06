@@ -100,11 +100,19 @@ export default {
   },
 
   getTagValueSequence (content, tagName) {
-    let images = this.getTagValue(content, tagName)
-    if (images === '') {
+    let sequence = this.getTagValue(content, tagName)
+    if (sequence === '') {
       return []
     }
-    let result = images.split(',')
+    let result = []
+    if (sequence.indexOf('||')) {
+      // by random
+      result = sequence.split('||')
+      result = this.shuffle(result)
+    } else {
+      // by sequence
+      result = sequence.split(',')
+    }
     return result
   },
 
