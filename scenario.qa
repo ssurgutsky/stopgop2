@@ -10,7 +10,7 @@
 									[i_am_asking]Да ты погоди, я спрошу и пойдешь.
 										[mark_9934f14d8xqy7hgvnb32]Ну спрашивай, только побыстрее, я спешу![VIDEO 103][AUDIO AskMeIamHurry][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random]
 											
-												[EPISODE1,goto_looser]...[VIDEO 109][AUDIO silent_8.5][BGNDVIDEO 201||204][ANSWERTIME 30][TIMEEXPIRED 316]
+												[EPISODE1,goto_looser]...[VIDEO 109][AUDIO silent_8.5][BGNDVIDEO 202||204][ANSWERTIME 30][TIMEEXPIRED 316]
 													Тебе чо в западло выслушать нормального пацана?
 														[mark_wd516lw5862r44zd3wg3]Извини, я тороплюсь.[VIDEO 301][AUDIO SorryIamHurry][BGNDVIDEO 201||202||203||204||205][ANSWERTIME 30][TIMEEXPIRED 316]
 															Слух, тут такое дело...
@@ -170,7 +170,7 @@
 																			
 																				[payment_success]...[VIDEO 408][AUDIO silent_2.9]
 																					
-																						[mark_hviwf6y20h6n5fio27u2][FINAL Лох оказался боксером! Но за денежку - спасибо!][VIDEO 315][AUDIO OkTakeLook]
+																						[mark_hviwf6y20h6n5fio27u2][FINAL Лох оказался боксером!][VIDEO 315][AUDIO OkTakeLook]
 																				[payment_fail]Что то не так, попробуй еще раз.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
 																					[GOTO donate]
 									[ofelak_come_here]Слух, офелак, сюда подойди...
