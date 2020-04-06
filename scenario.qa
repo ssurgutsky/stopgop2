@@ -10,155 +10,169 @@
 									[i_am_asking]Да ты погоди, я спрошу и пойдешь.
 										[mark_9934f14d8xqy7hgvnb32]Ну спрашивай, только побыстрее, я спешу![VIDEO 103][AUDIO AskMeIamHurry][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random]
 											
-												[mark_wd516lw5862r44zd3wg3]...[VIDEO 109][AUDIO silent_7][BGNDVIDEO 205][ANSWERTIME 30][TIMEEXPIRED 316]
-													Слух, тут такое дело...
-														[EPISODE0]Какое дело?[VIDEO 301][AUDIO WhatDeal][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
-															Мне один пацанчик денег задолжал...
-																[mark_7v926h0b08cnim58z3l4]А я то тут причем?[VIDEO 302][AUDIO AndWhatAboutMyself][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
-																	Купи у меня его долг. Штукарь за пятихатку уступаю!
-																		[mark_0uc76c4092aud5g686o3]Нет, спасибо![VIDEO 303][AUDIO NoThanx][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
-																			Те чо, халявные бабки не нужны?
-																				[mark_pw9m6he5d82ssazoxsq4]Нее, не нужны.[VIDEO 303][AUDIO NoNeed][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
-																					Чо, своих много?
-																						[mark_d13gt194mpz5o20k13wu]Я вообще на нуле...[VIDEO 303][AUDIO IhaveNoMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
-																							[how_much_money_with_you]А сколь бабла с собой есть?
-																								[EPISODE2]Нисколько нет.[VIDEO 303][AUDIO NoMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
-																									Слух, давай за каждый найденный рупь - тебе щелобан.
-																										[No_no_here_is_50]Не надо! Вот полтинник, я пошел![VIDEO 308][AUDIO NoPleaseTake50IamLeaving][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
-																											[Give_Me_Mobile]Эээ! Не спеши... дай трубочку позвонить.
-																												[mark_748tljoy51t885k8c169]Я без телефона.[VIDEO 306][AUDIO IhaveNoMobile][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
-																													Чо, прикидываешься?
-																														[mark_c607646478b619ye9zd9]Правда, дома оставил.[VIDEO 306][AUDIO MobileIsAtHome][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
-																															Хочешь чтоб я нашел?
-																																[EPISODE3]Ну ищи, только говно вытри...[VIDEO 306][AUDIO SearchButDryTheShit][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
-																																	Ты про чо мне щас втираешь?
-																																		[mark_9lq84z2430om5c7xfvxc]У меня телефон лоченный на мою симку...[VIDEO 306][AUDIO MobileIsLockedByTheSim][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
-																																			Ты чо совсем разозлить меня хочешь?[VIDEO 310]
-																																				[mark_6746264dwql460d067e3]Подожди, я сам позвоню![VIDEO 209][AUDIO WaitIamCalling][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 209]
-																																					Дай сюда и вали отсюда![VIDEO 413][AUDIO silent_2]
-																																						[go_away_from_here]А теперь вали отсюда![VIDEO 407][AUDIO silent_4]
-																																							
-																																								[mark_q8891lela26674jg47e5]...[VIDEO 317][AUDIO silent_1.3][AMBIENT AmbientStreet.mp3]
+												[EPISODE1]...[VIDEO 109][AUDIO silent_8.5][BGNDVIDEO 205][ANSWERTIME 30][TIMEEXPIRED 316]
+													Тебе в западло выслушать нормального пацана?
+														[mark_wd516lw5862r44zd3wg3]Извини, я тороплюсь.[VIDEO 301][AUDIO SorryIamHurry][BGNDVIDEO 205][ANSWERTIME 30][TIMEEXPIRED 316]
+															Слух, тут такое дело...
+																[EPISODE2]Какое дело?[VIDEO 301][AUDIO WhatDeal][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
+																	Мне один пацанчик денег задолжал...
+																		[mark_7v926h0b08cnim58z3l4]А я то тут причем?[VIDEO 302][AUDIO AndWhatAboutMyself][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
+																			Купи у меня его долг. Штукарь за пятихатку уступаю!
+																				[mark_0uc76c4092aud5g686o3]Нет, спасибо![VIDEO 303][AUDIO NoThanx][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
+																					Те чо, халявные бабки не нужны?
+																						[mark_pw9m6he5d82ssazoxsq4]Нее, не нужны.[VIDEO 303][AUDIO NoNeed][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
+																							Чо, своих много?
+																								[mark_d13gt194mpz5o20k13wu]Я вообще на нуле...[VIDEO 303][AUDIO IhaveNoMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,205]
+																									[how_much_money_with_you]А сколь бабла с собой есть?
+																										[EPISODE3]Нисколько нет.[VIDEO 303][AUDIO NoMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
+																											Слух, давай за каждый найденный рупь - тебе щелобан.
+																												[No_no_here_is_50]Не надо! Вот полтинник, я пошел![VIDEO 308][AUDIO NoPleaseTake50IamLeaving][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
+																													[Give_Me_Mobile]Эээ! Не спеши... дай трубочку позвонить.
+																														[mark_748tljoy51t885k8c169]Я без телефона.[VIDEO 306][AUDIO IhaveNoMobile][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
+																															Чо, прикидываешься?
+																																[mark_c607646478b619ye9zd9]Правда, дома оставил.[VIDEO 306][AUDIO MobileIsAtHome][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
+																																	Хочешь чтоб я нашел?
+																																		[EPISODE4]Ну ищи, только говно вытри...[VIDEO 306][AUDIO SearchButDryTheShit][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
+																																			Ты про чо мне щас втираешь?
+																																				[mark_9lq84z2430om5c7xfvxc]У меня телефон лоченный на мою симку...[VIDEO 306][AUDIO MobileIsLockedByTheSim][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
+																																					Ты чо совсем разозлить меня хочешь?[VIDEO 310]
+																																						[mark_6746264dwql460d067e3]Подожди, я сам позвоню![VIDEO 209][AUDIO WaitIamCalling][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 209]
+																																							Дай сюда и вали отсюда![VIDEO 413][AUDIO silent_2]
+																																								[go_away_from_here]А теперь вали отсюда![VIDEO 407][AUDIO silent_4]
 																																									
-																																										[Mark_Final0]Главный финал! Тебе удалось протрясти лоха! Но...[BGNDVIDEO Titles]
-																																					[take_it_loshara]Получи, лошара!!! <пнуть>
-																																						[Mark_Final10][FINAL Лох с сотрясением мозга попал в больницу, а ты в ментовку. Плохой результат.][VIDEO 411][AUDIO Punch]
-																																					<ляснуть по шарабану>[VIDEO 410]
-																																						[Mark_Final6][FINAL Милиция! Помогите! Грабят! - лох отпугнул тебя криком. Отрицательный финал.][VIDEO 311][AUDIO CallingPolice][SOUNDFX PoliceSerene]
-																																			[Give_It]Да мне поровну, давай сюда!<ляснуть по шарабану>[VIDEO 410]
-																																				[mark_2w7ome4eu3d3k5g4d91x][GOTO Mark_Final6]
-																																			Это чо значит?
-																																				[Mark_Final2]Ну вот смотри...[VIDEO 315][AUDIO OkTakeLook]
+																																										[mark_q8891lela26674jg47e5]...[VIDEO 317][AUDIO silent_1.3][AMBIENT AmbientStreet.mp3]
+																																											
+																																												[Mark_Final0]Главный финал! Тебе удалось протрясти лоха! Но...[BGNDVIDEO Titles]
+																																							[take_it_loshara]Получи, лошара!!! <пнуть>
+																																								[Mark_Final10][FINAL Лох с сотрясением мозга попал в больницу, а ты в ментовку. Плохой результат.][VIDEO 411][AUDIO Punch]
+																																							<ляснуть по шарабану>[VIDEO 410]
+																																								[Mark_Final6][FINAL Милиция! Помогите! Грабят! - лох отпугнул тебя криком. Отрицательный финал.][VIDEO 311][AUDIO CallingPolice][SOUNDFX PoliceSerene]
+																																					[Give_It]Да мне поровну, давай сюда!<ляснуть по шарабану>[VIDEO 410]
+																																						[mark_2w7ome4eu3d3k5g4d91x][GOTO Mark_Final6]
+																																					Это чо значит?
+																																						[Mark_Final2]Ну вот смотри...[VIDEO 315][AUDIO OkTakeLook]
+																																							
+																																								[mark_9g8n8k60j352133v45pw][FINAL Получил четко в пятак от лоха! Отрицательный финал.]
+																																			Где говно?
+																																				[Mark_Final1][FINAL Лох отвлек твое внимание и убежал! Отрицательный финал.][VIDEO 314][AUDIO silent_10]
+																																	[what_is_in_pocket]А в кармане чо топорщится?
+																																		[mark_2195g6s5pt8jkrjs4wor]Сигареты.[VIDEO 301][AUDIO Sigarets][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 202,203,205]
+																																			Екарный бабай! Куреха есть и не угощаешь?
+																																				[EPISODE5]Извини, угощайся![VIDEO 312][AUDIO SorryPleaseTakeIt]
 																																					
-																																						[mark_9g8n8k60j352133v45pw][FINAL Получил четко в пятак от лоха! Отрицательный финал.]
-																																	Где говно?
-																																		[Mark_Final1][FINAL Лох отвлек твое внимание и убежал! Отрицательный финал.][VIDEO 314][AUDIO silent_10]
-																															[what_is_in_pocket]А в кармане чо топорщится?
-																																[mark_2195g6s5pt8jkrjs4wor]Сигареты.[VIDEO 301][AUDIO Sigarets][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 202,203,205]
-																																	Екарный бабай! Куреха есть и не угощаешь?
-																																		[EPISODE1]Извини, угощайся![VIDEO 312][AUDIO SorryPleaseTakeIt]
-																																			
-																																				[Mark_Final3][FINAL Ты прикурил петарду! Отрицательный финал.]
-																													[i_am_feeling_bad]А-а-а! Что то мне херово... вызови скорую...<прикинуться болезненным>
-																														[EPISODE4]Эй, эй, что с тобой? Сейчас, потерпи, уже звоню...[VIDEO 310][AUDIO HeyWhatIsWithYou][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 209]
-																															Опаньки, а вот и моя трубочка![VIDEO 413]
-																																[mark_c5amgz0h72a02z8fd3uf]Отдай мне телефон![VIDEO 306][AUDIO GetBackMyPhone][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
-																																	Гыгыгы...
-																																		[mark_90vng0gy443so8gu7pjh][GOTO go_away_from_here]
-																																	[GOTO take_it_loshara]
-																																	<ляснуть по шарабану>[VIDEO 410]
-																																		[mark_3dkulyi7brc30zzqy124][GOTO Mark_Final6]
-																											Куда ты пошёл? Стой сюда! Еще деньги есть?
-																												[Only_Ten_rubles_left]Только десятка, но это мне на проезд...[VIDEO 306][AUDIO Only10rubForBus][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
-																													[GOTO Give_It]
-																													Слух, пешком дойдёшь, не облезешь!
-																														[Mark_Final5][FINAL Ну ладно, вот, держи! - Лох брызнул тебе из балончика! Отрицательный финал.][VIDEO 313][AUDIO OkTake10rub]
+																																						[Mark_Final3][FINAL Ты прикурил петарду! Отрицательный финал.]
+																															[i_am_feeling_bad]А-а-а! Что то мне херово... вызови скорую...<прикинуться болезненным>
+																																[EPISODE6]Эй, эй, что с тобой? Сейчас, потерпи, уже звоню...[VIDEO 310][AUDIO HeyWhatIsWithYou][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 209]
+																																	Опаньки, а вот и моя трубочка![VIDEO 413]
+																																		[mark_c5amgz0h72a02z8fd3uf]Отдай мне телефон![VIDEO 306][AUDIO GetBackMyPhone][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
+																																			Гыгыгы...
+																																				[mark_90vng0gy443so8gu7pjh][GOTO go_away_from_here]
+																																			[GOTO take_it_loshara]
+																																			<ляснуть по шарабану>[VIDEO 410]
+																																				[mark_3dkulyi7brc30zzqy124][GOTO Mark_Final6]
+																													Куда ты пошёл? Стой сюда! Еще деньги есть?
+																														[Only_Ten_rubles_left]Только десятка, но это мне на проезд...[VIDEO 306][AUDIO Only10rubForBus][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
+																															[GOTO Give_It]
+																															Слух, пешком дойдёшь, не облезешь!
+																																[Mark_Final5][FINAL Ну ладно, вот, держи! - Лох брызнул тебе из балончика! Отрицательный финал.][VIDEO 313][AUDIO OkTake10rub]
+																													[GOTO what_is_in_pocket]
+																											Чо, ваще прям нисколько?
+																												[mark_l270g16b420080262fym][GOTO Only_Ten_rubles_left]
+																									Займи у корешей, родичей.
+																										[mark_q4wz3hh7wgkovhit63kh]Ну... в приниципе можно... Сейчас схожу![VIDEO 301][AUDIO OkWillGoForMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
+																											[GOTO Give_Me_Mobile]
+																											Слух, если не вернешься, хуже будет!
+																												[Mark_Final101][FINAL Лох ушел. Нейтральный финал.][VIDEO 316][AUDIO silent_4]
 																											[GOTO what_is_in_pocket]
-																									Чо, ваще прям нисколько?
-																										[mark_l270g16b420080262fym][GOTO Only_Ten_rubles_left]
-																							Займи у корешей, родичей.
-																								[mark_q4wz3hh7wgkovhit63kh]Ну... в приниципе можно... Сейчас схожу![VIDEO 301][AUDIO OkWillGoForMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
-																									[GOTO Give_Me_Mobile]
-																									Слух, если не вернешься, хуже будет!
-																										[Mark_Final101][FINAL Лох ушел. Нейтральный финал.][VIDEO 316][AUDIO silent_4]
-																									[GOTO what_is_in_pocket]
-																					[lend_me_50]Займи полтинничек.
-																						[mark_1t2em1k98ukyn64ewb8n]У корешей своих попроси.[VIDEO 304][AUDIO AskYourFriendsForMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 204,205,206][SOUNDFX PoliceSerene]
-																							У них щас напряг с баблом.
-																								[return_tomorrow_100]Давай так я занимаю, а ты завтра возвращаешь сотку лично Шерхану. Знаешь Шерхана?[VIDEO 307][AUDIO Return100ToSherkhan][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
-																									Это ещё кто такой?
-																										[EPISODE5]Мой брат, районник, работает на Бугра, местного авторитета. Кстати, Бугор в курсе, что ты на его районе промышляешь?[VIDEO 307][AUDIO MyBrotherWorkingToBugor][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
-																											[ok_go_out]Ладно, иди куда шел.
-																												[Mark_Final4][FINAL Лох ушел... Нейтральный финал.][VIDEO 316][AUDIO silent_5]
-																											Ты чо мне порожняк гоняешь? Я сам авторитет!
-																												[mark_9xla5qn36p19i29dyx2r]Ты это пацанам справа скажи.[VIDEO 301][AUDIO SayItForRightBoys][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 210]
-																													<Повернуться к пацанам>
-																														[mark_6k10qmeu1mzug01v78w2][FINAL Лох отвлек твое внимание и убежал! Отрицательный финал.][VIDEO 409][AUDIO silent_10]
-																													Ты чо, петушара, по гнилому развести меня удумал? <ляснуть по шарабану>[VIDEO 410]
-																														[mark_1l61z0x7g4r1nh9y17g7][GOTO No_no_here_is_50]
-																									[GOTO ok_go_out]
-																									Лады, давай!
-																										[mark_6928wyz7p1q6z4nr0rfj][GOTO Mark_Final5]
-																							Не понял... слух, ты чо мне дерзишь?
-																								[mark_22r44ep421377851dp44]Слушай сюда, если твои кореша без бабла - значит они лохи, а если твои кореша лохи, значит и ты сам тоже лох! А лохам бабло не занимают, понял?[VIDEO 307][AUDIO YourFriendsAreFools][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
-																									[hit_face]Дудух на!!! <пнуть лоха>
-																										[mark_p4ftzn6c6h7i4h9m21ov][GOTO Mark_Final10]
-																									Да ты ваще оборзел?
-																										[mark_s77pygw9q23760f9i0ql][GOTO return_tomorrow_100]
-																									[GOTO ok_go_out]
-																			[are_you_offend_me]Ты чо меня обидеть хочешь?
-																				[mark_116am041vs5p9dxk57o7]Даже не думал об этом.[VIDEO 303][AUDIO NotThinkingAboutIt][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
-																					[GOTO lend_me_50]
+																							[lend_me_50]Займи полтинничек.
+																								[mark_1t2em1k98ukyn64ewb8n]У корешей своих попроси.[VIDEO 304][AUDIO AskYourFriendsForMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 204,205,206][SOUNDFX PoliceSerene]
+																									У них щас напряг с баблом.
+																										[return_tomorrow_100]Давай так я занимаю, а ты завтра возвращаешь сотку лично Шерхану. Знаешь Шерхана?[VIDEO 307][AUDIO Return100ToSherkhan][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
+																											Это ещё кто такой?
+																												[EPISODE7]Мой брат, районник, работает на Бугра, местного авторитета. Кстати, Бугор в курсе, что ты на его районе промышляешь?[VIDEO 307][AUDIO MyBrotherWorkingToBugor][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
+																													[ok_go_out]Ладно, иди куда шел.
+																														[Mark_Final4][FINAL Лох ушел... Нейтральный финал.][VIDEO 316][AUDIO silent_5]
+																													Ты чо мне порожняк гоняешь? Я сам авторитет!
+																														[mark_9xla5qn36p19i29dyx2r]Ты это пацанам справа скажи.[VIDEO 301][AUDIO SayItForRightBoys][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 210]
+																															<Повернуться к пацанам>
+																																[mark_6k10qmeu1mzug01v78w2][FINAL Лох отвлек твое внимание и убежал! Отрицательный финал.][VIDEO 409][AUDIO silent_10]
+																															Ты чо, петушара, по гнилому развести меня удумал? <ляснуть по шарабану>[VIDEO 410]
+																																[mark_1l61z0x7g4r1nh9y17g7][GOTO No_no_here_is_50]
+																											[GOTO ok_go_out]
+																											Лады, давай!
+																												[mark_6928wyz7p1q6z4nr0rfj][GOTO Mark_Final5]
+																									Не понял... слух, ты чо мне дерзишь?
+																										[mark_22r44ep421377851dp44]Слушай сюда, если твои кореша без бабла - значит они лохи, а если твои кореша лохи, значит и ты сам тоже лох! А лохам бабло не занимают, понял?[VIDEO 307][AUDIO YourFriendsAreFools][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
+																											[hit_face]Дудух на!!! <пнуть лоха>
+																												[mark_p4ftzn6c6h7i4h9m21ov][GOTO Mark_Final10]
+																											Да ты ваще оборзел?
+																												[mark_s77pygw9q23760f9i0ql][GOTO return_tomorrow_100]
+																											[GOTO ok_go_out]
+																					[are_you_offend_me]Ты чо меня обидеть хочешь?
+																						[mark_116am041vs5p9dxk57o7]Даже не думал об этом.[VIDEO 303][AUDIO NotThinkingAboutIt][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
+																							[GOTO lend_me_50]
+																							[GOTO how_much_money_with_you]
+																			Занял и не отдает. Выручи полтосом рублей!
+																				[ask_other_person]Попроси кого-нибудь другого![VIDEO 301][AUDIO AskOtherPerson][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 204]
+																					[GOTO are_you_offend_me]
 																					[GOTO how_much_money_with_you]
-																	Занял и не отдает. Выручи полтосом рублей!
-																		[ask_other_person]Попроси кого-нибудь другого![VIDEO 301][AUDIO AskOtherPerson][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 204]
-																			[GOTO are_you_offend_me]
-																			[GOTO how_much_money_with_you]
-															[friend_is_in_hospital]Кореш в больничке, бабло на лечуху собираю.
-																[mark_e27vukma350uj9m2h14r]У меня у самого друг в больнице лежит, может ты мне поможешь?[VIDEO 301][AUDIO MyFrientAlsoInHospital][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
-																	[GOTO ok_go_out]
-																	[GOTO are_you_offend_me]
-															У корефана днюха, бабло на косяк собираю.
-																[mark_k4p5murl5ydou50z4k17][GOTO ask_other_person]
-													[have_a_business]Да ты не спеши, у меня к тебе дело есть!
-														[mark_t9sr1j88b3gp51yuz7bi]Дай угадаю - братишка с зоны откинулся, бухнуть хочет, а денег нет?[VIDEO 304][AUDIO YourBrotherAfterPrison][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 205]
-															Точняк, а ты откель знаешь???
-																[mark_w84jv9vx1y52j0w7oope]Друган рассказывал, как развел тебя на сотку по этой теме. Так что проходи мимо![VIDEO 304][AUDIO MyFriendTurnsYouFor100][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 208]
-																	[GOTO hit_face]
-																	[GOTO ok_go_out]
-																	Да пошел ты!
-																		[mark_g76swd0nmei8vr4n87xk][GOTO Mark_Final4]
-															[GOTO friend_is_in_hospital]
-													Спешишь? Да кому и где ты нужен?
-														[mark_8330338yev9qo86y3r72]На соревнованиях по боксу.[VIDEO 301][AUDIO ToBoxCampitition][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
-															Ты чо, серъезно?
-																[mark_gm00y85r6nj65fkta23l]Да, у меня подруга в женской лиге выступает.[VIDEO 301][AUDIO MyGirlFriendIsInBoxLeague][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
-																	[GOTO lend_me_50]
-																	[GOTO ok_go_out]
-																	О, как... подруга значит... Красивая?
-																		[mark_5t499dl5349w7281ba36]Суровая.[VIDEO 301][AUDIO FuryGirlFriend][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
+																	[friend_is_in_hospital]Кореш в больничке, бабло на лечуху собираю.
+																		[mark_e27vukma350uj9m2h14r]У меня у самого друг в больнице лежит, может ты мне поможешь?[VIDEO 301][AUDIO MyFrientAlsoInHospital][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
 																			[GOTO ok_go_out]
-																			А чо ты с ней мутишь тогда?
-																				[mark_j85b6172csi6pfr05541]Приходится... нравлюсь я ей, вот и не отпускает. Она за меня убить готова![VIDEO 304][AUDIO SheWillKillForMe][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
-																					[ok_go_out1]Ладно, иди куда шел.
-																						[mark_2383w589df4l27a1729r]Слушай, выручи 100 рублями, а то я из-за тебя на автобус опоздал, теперь только на такси успею.[VIDEO 304][AUDIO GiveMe100ForTaxi][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 210]
-																							Да ты чо, чиканулся?
-																								[mark_k6u3n2ne8cjh74c844ka]Поверь, если я опоздаю, тебе хуже будет.[VIDEO 307][AUDIO ICanNotLate][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 210]
+																			[GOTO are_you_offend_me]
+																	У корефана днюха, бабло на косяк собираю.
+																		[mark_k4p5murl5ydou50z4k17][GOTO ask_other_person]
+															[have_a_business]Да ты не спеши, у меня к тебе дело есть!
+																[mark_t9sr1j88b3gp51yuz7bi]Дай угадаю - братишка с зоны откинулся, бухнуть хочет, а денег нет?[VIDEO 304][AUDIO YourBrotherAfterPrison][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 205]
+																	Точняк, а ты откель знаешь???
+																		[mark_w84jv9vx1y52j0w7oope]Друган рассказывал, как развел тебя на сотку по этой теме. Так что проходи мимо![VIDEO 304][AUDIO MyFriendTurnsYouFor100][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 208]
+																			[GOTO hit_face]
+																			[GOTO ok_go_out]
+																			Да пошел ты!
+																				[mark_g76swd0nmei8vr4n87xk][GOTO Mark_Final4]
+																	[GOTO friend_is_in_hospital]
+															Спешишь? Да кому и где ты нужен?
+																[mark_8330338yev9qo86y3r72]На соревнованиях по боксу.[VIDEO 301][AUDIO ToBoxCampitition][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
+																	Ты чо, серъезно?
+																		[mark_gm00y85r6nj65fkta23l]Да, у меня подруга в женской лиге выступает.[VIDEO 301][AUDIO MyGirlFriendIsInBoxLeague][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
+																			[GOTO lend_me_50]
+																			[GOTO ok_go_out]
+																			О, как... подруга значит... Красивая?
+																				[mark_5t499dl5349w7281ba36]Суровая.[VIDEO 301][AUDIO FuryGirlFriend][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
+																					[GOTO ok_go_out]
+																					А чо ты с ней мутишь тогда?
+																						[mark_j85b6172csi6pfr05541]Приходится... нравлюсь я ей, вот и не отпускает. Она за меня убить готова![VIDEO 304][AUDIO SheWillKillForMe][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
+																							[ok_go_out1]Ладно, иди куда шел.
+																								[mark_2383w589df4l27a1729r]Слушай, выручи 100 рублями, а то я из-за тебя на автобус опоздал, теперь только на такси успею.[VIDEO 304][AUDIO GiveMe100ForTaxi][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 210]
+																									Да ты чо, чиканулся?
+																										[mark_k6u3n2ne8cjh74c844ka]Поверь, если я опоздаю, тебе хуже будет.[VIDEO 307][AUDIO ICanNotLate][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 210]
+																											[GOTO ok_take_100]
+																											[GOTO i_am_feeling_bad]
+																											Да ты чо! У меня нема бабосов!
+																												[mark_5q1ny5q967jmdkgk712v]Лучше найди поскорее, я уже конкретно опаздываю![VIDEO 307][AUDIO YouShouldBetterToFind100][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 210]
+																													[ok_take_100]Эээ... ну вот... держи...[VIDEO 408]
+																														[Mark_Final8][FINAL Лох протряс тебя на 100 рублей. Наихудший результат!]
 																									[GOTO ok_take_100]
-																									[GOTO i_am_feeling_bad]
-																									Да ты чо! У меня нема бабосов!
-																										[mark_5q1ny5q967jmdkgk712v]Лучше найди поскорее, я уже конкретно опаздываю![VIDEO 307][AUDIO YouShouldBetterToFind100][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 210]
-																											[ok_take_100]Эээ... ну вот... держи...[VIDEO 408]
-																												[Mark_Final8][FINAL Лох протряс тебя на 100 рублей. Наихудший результат!]
-																							[GOTO ok_take_100]
-																							[GOTO hit_face]
-															Чо ты гонишь, какой тебе дрищу бокс?
-																[mark_o22cv2h1w49576n41sn3]Мой брат на мастера спорта сегодня сдает.[VIDEO 301][AUDIO MyBrotherWillBeMaster][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
+																									[GOTO hit_face]
+																	Чо ты гонишь, какой тебе дрищу бокс?
+																		[mark_o22cv2h1w49576n41sn3]Мой брат на мастера спорта сегодня сдает.[VIDEO 301][AUDIO MyBrotherWillBeMaster][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201,202,203,204,205]
+																			[GOTO ok_go_out]
+																			Чо, спортсмен что ли?
+																				[mark_n10i65ga8526q4euu2lt]Ага, 30 нокаутов и всего 2 поражения...[VIDEO 301][AUDIO Yeah30knockOuts][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
+																					[GOTO ok_go_out1]
 																	[GOTO ok_go_out]
-																	Чо, спортсмен что ли?
-																		[mark_n10i65ga8526q4euu2lt]Ага, 30 нокаутов и всего 2 поражения...[VIDEO 301][AUDIO Yeah30knockOuts][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
-																			[GOTO ok_go_out1]
-															[GOTO ok_go_out]
+													[donate]Дай мобилу посмотреть за денежку.
+														[mark_ht148aj862wm21q30ogd]{script getPayment}Нууу... ээээ... ладно, давай денежку.[VIDEO 301][AUDIO silent_2.13]
+															
+																[wait]...[VIDEO 205][AUDIO silent_2]
+																	
+																		[mark_y9ehy9jx40feb58j815p]{script checkPayment}
+																			
+																				[payment_success]...[VIDEO 408][AUDIO silent_2.5]
+																					
+																						[mark_hviwf6y20h6n5fio27u2][FINAL Лох оказался боксером! Но за денежку - спасибо!][VIDEO 315][AUDIO OkTakeLook]
+																				[payment_fail]Что то не так, попробуй еще раз.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
+																					[GOTO donate]
 									[GOTO have_a_business]
 									[ofelak_come_here]Слух, офелак, сюда подойди...
 										[Mark_Final7][FINAL Лох испугался и убежал. Отрицательный финал.][VIDEO 108][AUDIO silent_5]
@@ -180,18 +194,4 @@
 							[GOTO i_am_asking]
 							[GOTO hey_stop_come_here]
 							[GOTO ofelak_come_here]
-					[donate]Достать лопатник.
-						[mark_ht148aj862wm21q30ogd]{script getPayment}
-							
-								[wait]...[VIDEO GopStandsBouncing][AUDIO silent_4]
-									
-										[mark_y9ehy9jx40feb58j815p]{script checkPayment}
-											
-												[payment_success]Аха-ха-ха-ха!!![VIDEO GopTakes5rub,GopLaughing][AUDIO silent_2.7,hahaha]
-													
-														[mark_773nu066478li3cn85zf]Благодарочка![VIDEO GopSpeechLoadingLoop][AUDIO {this.lang}/thankyou][BGNDVIDEO GopHappyLoop]
-															>>>
-																[mark_9bir6wn3ives740x2h86][GOTO whom_do_you_know,what_district,ok_lets_go,are_you_kidding,give_mobile,gop_friend_hit_you]
-												[payment_fail]Чота не так, чел, попробуй еще![VIDEO GopSpeechLoadingLoop][AUDIO {this.lang}/tryagain][BGNDVIDEO GopStandsBouncing]
-													[GOTO donate]
 				[316][FINAL Время истекло...][VIDEO 316][AUDIO silent_3.8]
