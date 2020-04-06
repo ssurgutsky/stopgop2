@@ -10,19 +10,19 @@
 									[i_am_asking]Да ты погоди, я спрошу и пойдешь.
 										[mark_9934f14d8xqy7hgvnb32]Ну спрашивай, только побыстрее, я спешу![VIDEO 103][AUDIO AskMeIamHurry][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random]
 											
-												[EPISODE1,goto_looser]...[VIDEO 109][AUDIO silent_8.5][BGNDVIDEO 205][ANSWERTIME 30][TIMEEXPIRED 316]
-													Тебе в западло выслушать нормального пацана?
-														[mark_wd516lw5862r44zd3wg3]Извини, я тороплюсь.[VIDEO 301][AUDIO SorryIamHurry][BGNDVIDEO 205][ANSWERTIME 30][TIMEEXPIRED 316]
+												[EPISODE1,goto_looser]...[VIDEO 109][AUDIO silent_8.5][BGNDVIDEO 201||204][ANSWERTIME 30][TIMEEXPIRED 316]
+													Тебе чо в западло выслушать нормального пацана?
+														[mark_wd516lw5862r44zd3wg3]Извини, я тороплюсь.[VIDEO 301][AUDIO SorryIamHurry][BGNDVIDEO 201||202||203||204||205][ANSWERTIME 30][TIMEEXPIRED 316]
 															Слух, тут такое дело...
-																[EPISODE2]Какое дело?[VIDEO 301][AUDIO WhatDeal][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||205]
+																[EPISODE2]Какое дело?[VIDEO 301][AUDIO WhatDeal][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||204||205]
 																	Мне один пацанчик денег задолжал...
-																		[mark_7v926h0b08cnim58z3l4]А я то тут причем?[VIDEO 302][AUDIO AndWhatAboutMyself][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||205]
+																		[mark_7v926h0b08cnim58z3l4]А я то тут причем?[VIDEO 302][AUDIO AndWhatAboutMyself][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||204||205]
 																			Купи у меня его долг. Штукарь за пятихатку уступаю!
-																				[mark_0uc76c4092aud5g686o3]Нет, спасибо![VIDEO 303][AUDIO NoThanx][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||205]
+																				[mark_0uc76c4092aud5g686o3]Нет, спасибо![VIDEO 303][AUDIO NoThanx][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||204||205]
 																					Те чо, халявные бабки не нужны?
-																						[mark_pw9m6he5d82ssazoxsq4]Нее, не нужны.[VIDEO 303][AUDIO NoNeed][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||205]
+																						[mark_pw9m6he5d82ssazoxsq4]Нее, не нужны.[VIDEO 303][AUDIO NoNeed][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||204||205]
 																							Чо, своих много?
-																								[mark_d13gt194mpz5o20k13wu]Я вообще на нуле...[VIDEO 303][AUDIO IhaveNoMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||205]
+																								[mark_d13gt194mpz5o20k13wu]Я вообще на нуле...[VIDEO 303][AUDIO IhaveNoMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 201||202||203||204||205]
 																									[how_much_money_with_you]А сколь бабла с собой есть?
 																										[EPISODE3]Нисколько нет.[VIDEO 303][AUDIO NoMoney][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
 																											Слух, давай за каждый найденный рупь - тебе щелобан.
@@ -168,7 +168,7 @@
 																	
 																		[mark_y9ehy9jx40feb58j815p]{script checkPayment}
 																			
-																				[payment_success]...[VIDEO 408][AUDIO silent_2.5]
+																				[payment_success]...[VIDEO 408][AUDIO silent_2.9]
 																					
 																						[mark_hviwf6y20h6n5fio27u2][FINAL Лох оказался боксером! Но за денежку - спасибо!][VIDEO 315][AUDIO OkTakeLook]
 																				[payment_fail]Что то не так, попробуй еще раз.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
