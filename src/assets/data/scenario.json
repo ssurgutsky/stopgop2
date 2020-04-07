@@ -111,8 +111,32 @@
                                                                                                                                                                                                                             {
                                                                                                                                                                                                                               "node": [
                                                                                                                                                                                                                                 {
+                                                                                                                                                                                                                                  "node": [
+                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                      "node": [
+                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                          "node": [
+                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                              "node": [
+                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                  "_mark": "mark_790313417a53d817ku7r",
+                                                                                                                                                                                                                                                  "_content": "[LABEL ][GOTO GAME_SAVEPOINT]"
+                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                              ],
+                                                                                                                                                                                                                                              "_mark": "",
+                                                                                                                                                                                                                                              "_content": "[LABEL >>>]"
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                          ],
+                                                                                                                                                                                                                                          "_mark": "mark_lo9fb6iz5619s1v1w24v",
+                                                                                                                                                                                                                                          "_content": "[LABEL Кнопка переключения эпизодов \"EPISODE\" должна появиться внизу. Она будет доступна всегда, пока ты не удалишь игру.][BGNDVIDEO 205]"
+                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                      ],
+                                                                                                                                                                                                                                      "_mark": "",
+                                                                                                                                                                                                                                      "_content": "[LABEL ]"
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                  ],
                                                                                                                                                                                                                                   "_mark": "mark_pv997z33gc5wd8p3y75t",
-                                                                                                                                                                                                                                  "_content": "[LABEL Спасибо, чел!][VIDEO 301][AUDIO {this.lang}/thankyou][BGNDVIDEO 205]"
+                                                                                                                                                                                                                                  "_content": "[LABEL Спасибо, чел!][VIDEO 301][AUDIO {this.lang}/thankyou]"
                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                               ],
                                                                                                                                                                                                                               "_mark": "",
@@ -126,7 +150,7 @@
                                                                                                                                                                                                                           "node": [
                                                                                                                                                                                                                             {
                                                                                                                                                                                                                               "_mark": "",
-                                                                                                                                                                                                                              "_content": "[LABEL ][GOTO donate2]"
+                                                                                                                                                                                                                              "_content": "[LABEL ][GOTO buy_episodes]"
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                           "_mark": "payment_fail2",
@@ -154,11 +178,11 @@
                                                                                                                                                                                                     }
                                                                                                                                                                                                   ],
                                                                                                                                                                                                   "_mark": "mark_7ay0crivt5fo2krptr7j",
-                                                                                                                                                                                                  "_content": "[LABEL {script getPayment}]"
+                                                                                                                                                                                                  "_content": "[LABEL {this.productId = \"com.kri_games.sg2.episodes\";'';}{script getPayment}]"
                                                                                                                                                                                                 }
                                                                                                                                                                                               ],
-                                                                                                                                                                                              "_mark": "donate2",
-                                                                                                                                                                                              "_content": "[LABEL Кнопка переключения эпизодов игры.]"
+                                                                                                                                                                                              "_mark": "buy_episodes",
+                                                                                                                                                                                              "_content": "[LABEL Эпизоды игры.]"
                                                                                                                                                                                             }
                                                                                                                                                                                           ],
                                                                                                                                                                                           "_mark": "mark_9gj623q06a131xzs9n5m",
@@ -966,7 +990,7 @@
                                                                     }
                                                                   ],
                                                                   "_mark": "mark_ht148aj862wm21q30ogd",
-                                                                  "_content": "[LABEL {script getPayment}Нууу... ээээ... ладно, давай денежку.][VIDEO 301][AUDIO silent_2.13]"
+                                                                  "_content": "[LABEL {this.productId = \"com.kri_games.sg2.coin1\";'';}{script getPayment}Нууу... ээээ... ладно, давай денежку.][VIDEO 301][AUDIO silent_2.13]"
                                                                 }
                                                               ],
                                                               "_mark": "donate",
@@ -1117,6 +1141,10 @@
               ],
               "_mark": "",
               "_content": "[LABEL НАЧАТЬ ИГРУ / START THE GAME]"
+            },
+            {
+              "_mark": "",
+              "_content": "[LABEL ][GOTO buy_episodes]"
             }
           ],
           "_mark": "START",

@@ -43,8 +43,8 @@
 																																										[EPISODE5]...[VIDEO 317][AUDIO silent_1.3][AMBIENT AmbientStreet.mp3]
 																																											
 																																												[mark_9gj623q06a131xzs9n5m]Главный финал! Тебе удалось протрясти лоха! Но...[BGNDVIDEO Titles]
-																																													[donate2]Кнопка переключения эпизодов игры.
-																																														[mark_7ay0crivt5fo2krptr7j]{script getPayment}
+																																													[buy_episodes]Эпизоды игры.
+																																														[mark_7ay0crivt5fo2krptr7j]{this.productId = "com.kri_games.sg2.episodes";'';}{script getPayment}
 																																															
 																																																[wait2]...[VIDEO 205][AUDIO silent_2]
 																																																	
@@ -52,9 +52,13 @@
 																																																			
 																																																				[payment_success2]...[VIDEO 408][AUDIO silent_2.9][PURCHASE cheats]
 																																																					
-																																																						[mark_pv997z33gc5wd8p3y75t]Спасибо, чел![VIDEO 301][AUDIO {this.lang}/thankyou][BGNDVIDEO 205]
+																																																						[mark_pv997z33gc5wd8p3y75t]Спасибо, чел![VIDEO 301][AUDIO {this.lang}/thankyou]
+																																																							
+																																																								[mark_lo9fb6iz5619s1v1w24v]Кнопка переключения эпизодов "EPISODE" должна появиться внизу. Она будет доступна всегда, пока ты не удалишь игру.[BGNDVIDEO 205]
+																																																									>>>
+																																																										[mark_790313417a53d817ku7r][GOTO GAME_SAVEPOINT]
 																																																				[payment_fail2]Что то не так, попробуй еще раз.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
-																																																					[GOTO donate2]
+																																																					[GOTO buy_episodes]
 																																							[take_it_loshara]Получи, лошара!!! <пнуть>
 																																								[Mark_Final10][FINAL Лох с сотрясением мозга попал в больницу, а ты в ментовку. Плохой результат.][VIDEO 411][AUDIO Punch]
 																																							<ляснуть по шарабану>[VIDEO 410]
@@ -174,7 +178,7 @@
 																					[GOTO ok_go_out1]
 																	[GOTO ok_go_out]
 													[donate]Дай мобилу посмотреть за денежку.
-														[mark_ht148aj862wm21q30ogd]{script getPayment}Нууу... ээээ... ладно, давай денежку.[VIDEO 301][AUDIO silent_2.13]
+														[mark_ht148aj862wm21q30ogd]{this.productId = "com.kri_games.sg2.coin1";'';}{script getPayment}Нууу... ээээ... ладно, давай денежку.[VIDEO 301][AUDIO silent_2.13]
 															
 																[wait]...[VIDEO 205][AUDIO silent_2]
 																	
@@ -205,3 +209,4 @@
 							[GOTO hey_stop_come_here]
 							[GOTO ofelak_come_here]
 				[316][FINAL Время истекло...][VIDEO 316][AUDIO silent_3.8]
+	[GOTO buy_episodes]

@@ -59,7 +59,7 @@ export default {
   methods: {
     prepareData () {
       this.createMarksDictionary(scenario)
-      // console.log(this.marksDictionary)
+      console.log(this.marksDictionary)
 
       if (process.env.$debug) {
         console.log('gameScriptsDictionary:', this.gameScriptsDictionary)
@@ -85,7 +85,13 @@ export default {
 
       window.store.register({
         id: 'com.kri_games.sg2.coin1',
-        alias: 'coin3',
+        alias: 'coin1',
+        type: window.store.CONSUMABLE
+      })
+
+      window.store.register({
+        id: 'com.kri_games.sg2.episodes',
+        alias: 'episodes',
         type: window.store.CONSUMABLE
       })
 

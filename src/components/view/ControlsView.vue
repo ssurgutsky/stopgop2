@@ -4,8 +4,8 @@
     <button :style="styleObjectCheat" @click="onSaveClick">SAVE</button>
     <button :style="styleObjectCheat" @click="onLoadClick">LOAD</button>
     <button :style="styleObjectCheat" @click="onSkipClick">SKIP</button>
-    <button :style="styleObjectCheat" v-show="isCheatPurchased" @click="onBackClick">BACK</button>
-    <button :style="styleObjectCheat" @click="onEpisodeClick">EPISODE</button>
+    <button :style="styleObjectCheat" @click="onBackClick">BACK</button>
+    <button :style="styleObjectCheat" v-show="isCheatPurchased" @click="onEpisodeClick">EPISODE</button>
   </div>
 </template>
 
