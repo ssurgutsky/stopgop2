@@ -144,6 +144,16 @@ export default {
       return false
     },
 
+    savePurchasedItem (purchaseItem) {
+      console.log('Saving... purchaseItem:', purchaseItem)
+      localStorage.setItem(purchaseItem, true)
+    },
+
+    loadPurchasedItem (purchaseItem) {
+      console.log('Loading... purchaseItem:', purchaseItem)
+      return localStorage.getItem(purchaseItem)
+    },
+
     restartGame () {
       this.currentNode = scenario.node[0].node[0]
       if (this.sessions > 0) {
