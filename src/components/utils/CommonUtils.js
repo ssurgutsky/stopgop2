@@ -6,6 +6,7 @@ export default {
     'FINAL',
     'GOTO',
     'NAVIGATEURL',
+    'PURCHASE',
     'VIDEO',
     'AUDIO',
     'BGNDVIDEO',
@@ -51,6 +52,12 @@ export default {
   getTagValueNAVIGATEURL (content) {
     return this.getTagValue(content, 'NAVIGATEURL')
   },
+
+  getTagValuePURCHASE (content) {
+    console.log(content)
+    return this.getTagValue(content, 'PURCHASE')
+  },
+
   getTagValueVIDEO (content) {
     return this.getTagValueVideoSequence(content, 'VIDEO')
   },

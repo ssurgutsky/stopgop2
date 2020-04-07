@@ -84,7 +84,7 @@ export default {
       // window.store.verbosity = window.store.DEBUG
 
       window.store.register({
-        id: 'com.kri_games.sg.coin3',
+        id: 'com.kri_games.sg2.coin1',
         alias: 'coin3',
         type: window.store.CONSUMABLE
       })
@@ -231,6 +231,8 @@ export default {
       this.currentQuestionLabel = label
 
       this.navigateUrl = commonUtils.getTagValueNAVIGATEURL(this.currentNode._parsedContent)
+
+      this.purchaseItem = commonUtils.getTagValuePURCHASE(this.currentNode._parsedContent)
 
       const bgndImagesSequence = commonUtils.getTagValueBGNDIMAGE(this.currentNode._parsedContent)
       this.currentBgndImages = commonUtils.getArrayRandomElement(bgndImagesSequence)

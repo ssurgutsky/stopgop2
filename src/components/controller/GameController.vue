@@ -74,6 +74,12 @@ export default {
       this.playSoundFx()
       this.playMusic()
 
+      // User purchased some cheat buttons
+      console.log('this.gameModel.purchaseItem', this.gameModel.purchaseItem)
+      if (this.gameModel.purchaseItem.toLowerCase() === 'cheats') {
+        this.mainView.enablePurchasedCheats()
+      }
+
       if (this.gameModel.getCurrentNavigateUrl()) {
         console.log(this.gameModel.getCurrentNavigateUrl())
         // navigator.app.loadUrl(this.gameModel.getCurrentNavigateUrl(), {openExternal: true})

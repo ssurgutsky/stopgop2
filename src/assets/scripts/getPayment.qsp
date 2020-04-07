@@ -1,10 +1,10 @@
 console.log('store', this.store);
 
 let productId = "com.kri_games.sg2.coin1";
-/*
+
 this.payment_pending = true;
 this.payment_success = false;
-
+/*
 this.store.order(productId)
     .then((p) => {
         console.log("store.order.then::", p);

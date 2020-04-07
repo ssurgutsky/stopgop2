@@ -40,9 +40,21 @@
 																																							Дай сюда и вали отсюда![VIDEO 413][AUDIO silent_2]
 																																								[go_away_from_here]А теперь вали отсюда![VIDEO 407][AUDIO silent_4]
 																																									
-																																										[mark_q8891lela26674jg47e5]...[VIDEO 317][AUDIO silent_1.3][AMBIENT AmbientStreet.mp3]
+																																										[EPISODE5]...[VIDEO 317][AUDIO silent_1.3][AMBIENT AmbientStreet.mp3]
 																																											
-																																												[Mark_Final0]Главный финал! Тебе удалось протрясти лоха! Но...[BGNDVIDEO Titles]
+																																												[mark_9gj623q06a131xzs9n5m]Главный финал! Тебе удалось протрясти лоха! Но...[BGNDVIDEO Titles]
+																																													[donate2]Кнопка переключения эпизодов игры.
+																																														[mark_7ay0crivt5fo2krptr7j]{script getPayment}
+																																															
+																																																[wait2]...[VIDEO 205][AUDIO silent_2]
+																																																	
+																																																		[mark_7u249b2lf7c472494fvi]{script checkPayment2}
+																																																			
+																																																				[payment_success2]...[VIDEO 408][AUDIO silent_2.9][PURCHASE cheats]
+																																																					
+																																																						[mark_pv997z33gc5wd8p3y75t]Спасибо, чел![VIDEO 301][AUDIO {this.lang}/thankyou][BGNDVIDEO 205]
+																																																				[payment_fail2]Что то не так, попробуй еще раз.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
+																																																					[GOTO donate2]
 																																							[take_it_loshara]Получи, лошара!!! <пнуть>
 																																								[Mark_Final10][FINAL Лох с сотрясением мозга попал в больницу, а ты в ментовку. Плохой результат.][VIDEO 411][AUDIO Punch]
 																																							<ляснуть по шарабану>[VIDEO 410]
@@ -58,11 +70,11 @@
 																																	[what_is_in_pocket]А в кармане чо топорщится?
 																																		[mark_2195g6s5pt8jkrjs4wor]Сигареты.[VIDEO 301][AUDIO Sigarets][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 202||203||205]
 																																			Екарный бабай! Куреха есть и не угощаешь?
-																																				[EPISODE5]Извини, угощайся![VIDEO 312][AUDIO SorryPleaseTakeIt]
+																																				[EPISODE6]Извини, угощайся![VIDEO 312][AUDIO SorryPleaseTakeIt]
 																																					
 																																						[Mark_Final3][FINAL Ты прикурил петарду! Отрицательный финал.]
 																															[i_am_feeling_bad]А-а-а! Что то мне херово... вызови скорую...<прикинуться болезненным>
-																																[EPISODE6]Эй, эй, что с тобой? Сейчас, потерпи, уже звоню...[VIDEO 310][AUDIO HeyWhatIsWithYou][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 209]
+																																[EPISODE7]Эй, эй, что с тобой? Сейчас, потерпи, уже звоню...[VIDEO 310][AUDIO HeyWhatIsWithYou][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 209]
 																																	Опаньки, а вот и моя трубочка![VIDEO 413]
 																																		[mark_c5amgz0h72a02z8fd3uf]Отдай мне телефон![VIDEO 306][AUDIO GetBackMyPhone][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 207]
 																																			Гыгыгы...
@@ -89,7 +101,7 @@
 																									У них щас напряг с баблом.
 																										[return_tomorrow_100]Давай так я занимаю, а ты завтра возвращаешь сотку лично Шерхану. Знаешь Шерхана?[VIDEO 307][AUDIO Return100ToSherkhan][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
 																											Это ещё кто такой?
-																												[EPISODE7]Мой брат, районник, работает на Бугра, местного авторитета. Кстати, Бугор в курсе, что ты на его районе промышляешь?[VIDEO 307][AUDIO MyBrotherWorkingToBugor][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
+																												[EPISODE8]Мой брат, районник, работает на Бугра, местного авторитета. Кстати, Бугор в курсе, что ты на его районе промышляешь?[VIDEO 307][AUDIO MyBrotherWorkingToBugor][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
 																													[ok_go_out]Ладно, иди куда шел.
 																														[Mark_Final4][FINAL Лох ушел... Нейтральный финал.][VIDEO 316][AUDIO silent_5]
 																													Ты чо мне порожняк гоняешь? Я сам авторитет!
