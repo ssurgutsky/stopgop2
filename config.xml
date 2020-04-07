@@ -15,7 +15,7 @@
 
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-whitelist" />
-    <gap:plugin name="cordova-plugin-purchase" source="npm" version="10.0.1"></gap:plugin>
+    <gap:plugin name="cordova-plugin-purchase" source="npm" version="9.0.0"></gap:plugin>
 
     <access origin="*" />
     <allow-intent href="*" />

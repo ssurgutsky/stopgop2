@@ -62,7 +62,6 @@ export default {
       // console.log(this.marksDictionary)
 
       // console.log('this.$debug', this.$debug)
-
       if (this.$debug) {
         console.log('gameScriptsDictionary:', this.gameScriptsDictionary)
 

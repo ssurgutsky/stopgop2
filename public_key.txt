@@ -1,4 +1,4 @@
-ProductId: com.kri_games.sg.coin
+ProductId: com.kri_games.sg2.coin1
 
 Play Console -> Apps -> an App -> Development Tools -> Services and API
 
