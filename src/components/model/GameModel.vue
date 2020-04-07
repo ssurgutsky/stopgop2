@@ -59,9 +59,11 @@ export default {
   methods: {
     prepareData () {
       this.createMarksDictionary(scenario)
-      console.log(this.marksDictionary)
+      // console.log(this.marksDictionary)
 
-      if (process.env.$debug) {
+      // console.log('this.$debug', this.$debug)
+
+      if (this.$debug) {
         console.log('gameScriptsDictionary:', this.gameScriptsDictionary)
 
         commonUtils.runTests()
