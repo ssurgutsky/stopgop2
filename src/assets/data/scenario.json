@@ -128,7 +128,7 @@
                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                                           "_mark": "mark_lo9fb6iz5619s1v1w24v",
-                                                                                                                                                                                                                                          "_content": "[LABEL Кнопка переключения эпизодов \"EPISODE\" должна появиться внизу. Она будет доступна всегда, пока ты не удалишь игру.][BGNDVIDEO 205]"
+                                                                                                                                                                                                                                          "_content": "[LABEL Кнопка переключения эпизодов \"EPISODE\" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.][BGNDVIDEO 205]"
                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                                       "_mark": "",
@@ -154,7 +154,7 @@
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                           "_mark": "payment_fail2",
-                                                                                                                                                                                                                          "_content": "[LABEL Что то не так, попробуй еще раз.][VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]"
+                                                                                                                                                                                                                          "_content": "[LABEL Что то не так, попробуй еще.][VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]"
                                                                                                                                                                                                                         }
                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                       "_mark": "",
@@ -186,7 +186,7 @@
                                                                                                                                                                                             }
                                                                                                                                                                                           ],
                                                                                                                                                                                           "_mark": "mark_9gj623q06a131xzs9n5m",
-                                                                                                                                                                                          "_content": "[LABEL Главный финал! Тебе удалось протрясти лоха! Но...][BGNDVIDEO Titles]"
+                                                                                                                                                                                          "_content": "[LABEL Главный финал! Тебе удалось протрясти лоха! Но...][BGNDVIDEO Titles][MUSIC NONE]"
                                                                                                                                                                                         }
                                                                                                                                                                                       ],
                                                                                                                                                                                       "_mark": "",
@@ -966,7 +966,7 @@
                                                                                             }
                                                                                           ],
                                                                                           "_mark": "payment_fail",
-                                                                                          "_content": "[LABEL Что то не так, попробуй еще раз.][VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]"
+                                                                                          "_content": "[LABEL Что то не так, попробуй еще.][VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]"
                                                                                         }
                                                                                       ],
                                                                                       "_mark": "",
@@ -990,7 +990,7 @@
                                                                     }
                                                                   ],
                                                                   "_mark": "mark_ht148aj862wm21q30ogd",
-                                                                  "_content": "[LABEL {this.productId = \"com.kri_games.sg2.coin1\";'';}{script getPayment}Ну... давай денежку.][VIDEO 301][AUDIO silent_2.13]"
+                                                                  "_content": "[LABEL {this.productId = \"com.kri_games.sg2.coin1\";'';}{script getPayment}Ну... давай денежку.][VIDEO 301][AUDIO give_coin]"
                                                                 }
                                                               ],
                                                               "_mark": "donate",
