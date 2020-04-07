@@ -57,7 +57,7 @@
 																																																								[mark_lo9fb6iz5619s1v1w24v]Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[BGNDVIDEO 205]
 																																																									>>>
 																																																										[mark_790313417a53d817ku7r][GOTO START]
-																																																				[payment_fail2]Что то не так, попробуй еще.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
+																																																				[payment_fail2]Что то не так, попробуй еще раз.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
 																																																					[GOTO buy_episodes]
 																																							[take_it_loshara]Получи, лошара!!! <пнуть>
 																																								[Mark_Final10][FINAL Лох с сотрясением мозга попал в больницу, а ты в ментовку. Плохой результат.][VIDEO 411][AUDIO Punch]
@@ -178,7 +178,7 @@
 																					[GOTO ok_go_out1]
 																	[GOTO ok_go_out]
 													[donate]Дай мобилу посмотреть за денежку.
-														[mark_ht148aj862wm21q30ogd]{this.productId = "com.kri_games.sg2.coin1";'';}{script getPayment}Ну... давай денежку.[VIDEO 301][AUDIO give_coin]
+														[mark_ht148aj862wm21q30ogd]{this.productId = "com.kri_games.sg2.coin1";'';}{script getPayment}Давай денежку.[VIDEO 301][AUDIO give_coin]
 															
 																[wait]...[VIDEO 205][AUDIO silent_2]
 																	
@@ -187,7 +187,7 @@
 																				[payment_success]...[VIDEO 408][AUDIO silent_2.9]
 																					
 																						[mark_hviwf6y20h6n5fio27u2][FINAL Лох оказался боксером!][VIDEO 315][AUDIO OkTakeLook]
-																				[payment_fail]Что то не так, попробуй еще.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
+																				[payment_fail]Что то не так, попробуй еще раз.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
 																					[GOTO donate]
 									[ofelak_come_here]Слух, офелак, сюда подойди...
 										[Mark_Final7][FINAL Лох испугался и убежал. Отрицательный финал.][VIDEO 108][AUDIO silent_5]
