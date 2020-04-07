@@ -120,7 +120,7 @@
                                                                                                                                                                                                                                               "node": [
                                                                                                                                                                                                                                                 {
                                                                                                                                                                                                                                                   "_mark": "mark_790313417a53d817ku7r",
-                                                                                                                                                                                                                                                  "_content": "[LABEL ][GOTO GAME_SAVEPOINT]"
+                                                                                                                                                                                                                                                  "_content": "[LABEL ][GOTO START]"
                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                               ],
                                                                                                                                                                                                                                               "_mark": "",
@@ -990,7 +990,7 @@
                                                                     }
                                                                   ],
                                                                   "_mark": "mark_ht148aj862wm21q30ogd",
-                                                                  "_content": "[LABEL {this.productId = \"com.kri_games.sg2.coin1\";'';}{script getPayment}Нууу... ээээ... ладно, давай денежку.][VIDEO 301][AUDIO silent_2.13]"
+                                                                  "_content": "[LABEL {this.productId = \"com.kri_games.sg2.coin1\";'';}{script getPayment}Ну... давай денежку.][VIDEO 301][AUDIO silent_2.13]"
                                                                 }
                                                               ],
                                                               "_mark": "donate",
