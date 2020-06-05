@@ -19,6 +19,7 @@
 </template>
 
 <script>
+import CacheController from '@/components/controller/CacheController.js'
 import MainView from '@/components/view/MainView.vue'
 import GameModel from '@/components/model/GameModel.vue'
 
@@ -50,11 +51,40 @@ export default {
 
       this.loadPurchasedItems()
 
+      this.mainView.showPreloading()
+      this.onPreloadingUpdate()
+      this.mainView.showImages('logo.jpg')
+
+      CacheController.setPreloadingCallback(this.onPreloadingUpdate)
+      CacheController.loadAssets().then(res => {
+        // console.log('cachedData:', CacheController.gameAssets)
+        this.assetsCached()
+      })
+    },
+
+    onPreloadingUpdate (obj) {
+      let text = 'Loading...'
+      if (obj) {
+        text = text + obj.current + '/' + obj.total
+        this.mainView.updateTimerViewPercent(obj.current, obj.total)
+      }
+      this.mainView.setQuestionText(text)
+    },
+
+    assetsCached () {
+      // Start the game once all assets have been cached
+      this.mainView.showGameView()
+      let jsonObj = CacheController.getAssetBlobByName(CacheController.CATEGORY_DATA, 'scenario.json')
+      // console.log('=======', jsonObj)
+      this.gameModel.scenario = JSON.parse(jsonObj)
+      // console.log('========', this.gameModel.scenario)
+      this.gameModel.prepareData()
       this.restartGame()
     },
 
     loadPurchasedItems () {
       let value = this.gameModel.loadPurchasedItem(this.PURCHASE_ITEM_CHEATS)
+      console.log('this.purchaseItems:', this.PURCHASE_ITEM_CHEATS, value)
       if (value) {
         this.mainView.enablePurchasedCheats()
       }
@@ -75,18 +105,10 @@ export default {
 
       this.mainView.setQuestionText(this.gameModel.getCurrentQuestionLabel())
 
-      this.mode = this.MODE_QUESTION
-      this.playVideoAndAudio()
-
-      this.mainView.clearBgndImages()
-      this.clearAndShowImages()
-
-      this.playAmbient()
-      this.playSoundFx()
-      this.playMusic()
-
       // User purchased some of cheat buttons
+      console.log('GC:purchaseItem:', this.PURCHASE_ITEM_CHEATS, this.gameModel.purchaseItem)
       if (this.gameModel.purchaseItem === this.PURCHASE_ITEM_CHEATS) {
+        console.log('Save:purchaseItem:', this.PURCHASE_ITEM_CHEATS, this.gameModel.purchaseItem)
         this.mainView.enablePurchasedCheats()
         this.gameModel.savePurchasedItem(this.gameModel.purchaseItem)
       }
@@ -98,6 +120,16 @@ export default {
         window.open(this.gameModel.getCurrentNavigateUrl(), '_system')
         // location.replace(this.gameModel.getCurrentNavigateUrl())
       }
+
+      this.mode = this.MODE_QUESTION
+      this.playVideoAndAudio()
+
+      this.mainView.clearBgndImages()
+      this.clearAndShowImages()
+
+      this.playAmbient()
+      this.playSoundFx()
+      this.playMusic()
     },
 
     showAfterQuestion () {

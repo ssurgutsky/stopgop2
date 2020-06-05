@@ -6,11 +6,9 @@
 
 import commonUtils from '@/components/utils/CommonUtils.js'
 
-import scenario from '@/assets/data/scenario.json'
-
 export default {
   data: () => ({
-    scenario,
+    scenario: null,
     marksDictionary: {},
     scriptsDictionary: {},
     sessions: 0,
@@ -39,32 +37,27 @@ export default {
     navigateUrl: '',
     episodeNo: 1
   }),
-  mounted () {
-    // console.log(this.scenario)
-    this.prepareData()
-  },
   computed: {
-    gameScriptsDictionary () {
-      const requireContext = require.context('@/assets/scripts', false, /\.(txt|qsp)(\?.*)?$/)
-      let result = requireContext.keys().map(file =>
-        [file.replace(/(^.\/)|(\.(txt|qsp)(\?.*)?$)/g, ''), requireContext(file)]
-      )
-        .reduce((scripts, [name, script]) => {
-          scripts[name] = script.default || script
-          return scripts
-        }, {})
-      return result
-    }
+  //   gameScriptsDictionary () {
+  //     const requireContext = require.context('@/assets/scripts', false, /\.(txt|qsp)(\?.*)?$/)
+  //     let result = requireContext.keys().map(file =>
+  //       [file.replace(/(^.\/)|(\.(txt|qsp)(\?.*)?$)/g, ''), requireContext(file)]
+  //     )
+  //       .reduce((scripts, [name, script]) => {
+  //         scripts[name] = script.default || script
+  //         return scripts
+  //       }, {})
+  //     return result
+  //   }
   },
   methods: {
     prepareData () {
-      this.createMarksDictionary(scenario)
+      // console.log('scenario', this.scenario)
+      this.createMarksDictionary(this.scenario)
       // console.log(this.marksDictionary)
 
       // console.log('this.$debug', this.$debug)
       if (this.$debug) {
-        console.log('gameScriptsDictionary:', this.gameScriptsDictionary)
-
         commonUtils.runTests()
         this.runTests()
 
@@ -162,9 +155,9 @@ export default {
     },
 
     restartGame () {
-      this.currentNode = scenario.node[0].node[0]
+      this.currentNode = this.scenario.node[0].node[0]
       if (this.sessions > 0) {
-        let startNode = this.findNodeWithMark(scenario, 'GAME_SAVEPOINT')
+        let startNode = this.findNodeWithMark(this.scenario, 'GAME_SAVEPOINT')
         if (startNode) {
           this.currentNode = startNode
         }
@@ -214,9 +207,9 @@ export default {
 
       while (markNames.length > 0) {
         let markName = commonUtils.getArrayRandomElement(markNames)
-        result = this.findNodeWithMark(scenario, markName)
+        result = this.findNodeWithMark(this.scenario, markName)
         if (!result) {
-          console.log('Cant find mark in scenario!', markName)
+          console.log('%c Cant find mark in scenario!' + markName, 'background: #FF0000; color: #FFFFFF')
           return node
         }
 
@@ -230,12 +223,13 @@ export default {
     },
 
     prepareCurrentQuestion () {
-      this.prevQuestionNodes.push(this.currentNode)
-
       this.currentNode = this.processGOTONode(this.currentNode)
 
       const saveObj = { ...this.gameData }
       this.currentNode._gameData = JSON.parse(JSON.stringify(saveObj))
+
+      // NOTE: should stay after _gameData set!!!
+      this.prevQuestionNodes.push(this.currentNode)
 
       // console.log('gameData:', this.gameData)
 
@@ -250,9 +244,18 @@ export default {
       this.navigateUrl = commonUtils.getTagValueNAVIGATEURL(this.currentNode._parsedContent)
 
       this.purchaseItem = commonUtils.getTagValuePURCHASE(this.currentNode._parsedContent)
+      console.log('purchaseItem:', this.purchaseItem)
 
-      const bgndImagesSequence = commonUtils.getTagValueBGNDIMAGE(this.currentNode._parsedContent)
+      let bgndImagesSequence = commonUtils.getTagValueBGNDIMAGE(this.currentNode._parsedContent)
       this.currentBgndImages = commonUtils.getArrayRandomElement(bgndImagesSequence)
+
+      // If need to keep [BGNDIMAGE ] content the same as [IMAGE ]
+      // But just re-eval scripts of [IMAGE ]
+      if (this.currentBgndImages === '*') {
+        var tmpParsedContent = this.evalString(this.currentNode._content)
+        bgndImagesSequence = commonUtils.getTagValueIMAGE(tmpParsedContent)
+        this.currentBgndImages = commonUtils.getArrayRandomElement(bgndImagesSequence)
+      }
 
       const imagesSequence = commonUtils.getTagValueIMAGE(this.currentNode._parsedContent)
       this.currentImages = commonUtils.getArrayRandomElement(imagesSequence)
@@ -465,7 +468,7 @@ export default {
 
     setEpisode () {
       console.log('setEpisode', this.episodeNo)
-      const episodeNode = this.findNodeWithMark(scenario, 'EPISODE' + this.episodeNo)
+      const episodeNode = this.findNodeWithMark(this.scenario, 'EPISODE' + this.episodeNo)
       if (episodeNode) {
         this.currentNode = episodeNode
         this.episodeNo++
@@ -477,7 +480,7 @@ export default {
 
     gotoMark (markName) {
       console.log('gotoMark', markName)
-      const gotoNode = this.findNodeWithMark(scenario, markName)
+      const gotoNode = this.findNodeWithMark(this.scenario, markName)
       if (gotoNode) {
         this.currentNode = gotoNode
       } else {
@@ -487,7 +490,7 @@ export default {
 
     processTimeExpired () {
       if (this.timeExpiredMark !== '') {
-        let gotoNode = this.findNodeWithMark(scenario, this.timeExpiredMark)
+        let gotoNode = this.findNodeWithMark(this.scenario, this.timeExpiredMark)
         if (gotoNode) {
           this.currentNode = gotoNode
         }
@@ -495,7 +498,7 @@ export default {
     },
 
     evalString (str) {
-      return commonUtils.evalString.call(this.gameData, str, this.gameScriptsDictionary)
+      return commonUtils.evalString.call(this.gameData, str)
     },
 
     setGameDataVarValue (varName, varValue) {
@@ -510,7 +513,7 @@ export default {
     runTests () {
       let input = 'Mark_Final1'
       let output = true
-      let result = this.findNodeWithMark(scenario, 'Mark_Final1') !== null
+      let result = this.findNodeWithMark(this.scenario, 'Mark_Final1') !== null
       commonUtils.checkCondition(input, output, result)
 
       this.gameData = {a: 1}
