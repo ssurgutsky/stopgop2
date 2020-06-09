@@ -1,4 +1,4 @@
-[START]Симулятор общения с гопником, часть 2.[BGNDIMAGE Intro.jpg][ANSWERSORDER OFF][MUSIC Intro]{this.lang='ru';''}{script initSystem}
+[START]Sim-Gop 2. Simulator gopa, part 2.[BGNDIMAGE Intro.jpg][ANSWERSORDER OFF][MUSIC Intro]{this.lang='ru';''}{script initSystem}
 	НАЧАТЬ ИГРУ / START THE GAME
 		[mark_s4ra74776n94719r1z62]...[ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][VIDEO 100][AUDIO silent_7.5][AMBIENT AmbientStreet][MUSIC NONE]
 			
@@ -43,7 +43,22 @@
 																																										[EPISODE5]...[VIDEO 317][AUDIO silent_1.3][AMBIENT AmbientStreet.mp3]
 																																											
 																																												[mark_9gj623q06a131xzs9n5m]Главный финал! Тебе удалось протрясти лоха! Но...[BGNDVIDEO Titles][MUSIC NONE]
-																																													[GOTO donate]
+																																													[buy_episodes]Эпизоды игры.
+																																														[mark_7ay0crivt5fo2krptr7j]{this.productId = "com.kri_games.sg2.episodes";'';}{script getPayment}
+																																															
+																																																[wait2]...[VIDEO 205][AUDIO silent_2]
+																																																	
+																																																		[mark_7u249b2lf7c472494fvi]{script checkPayment2}
+																																																			
+																																																				[payment_success2]...[VIDEO 408][AUDIO silent_2.9][PURCHASE cheats]
+																																																					
+																																																						[mark_pv997z33gc5wd8p3y75t]Спасибо, чел![VIDEO 301][AUDIO {this.lang}/thankyou]
+																																																							
+																																																								[mark_lo9fb6iz5619s1v1w24v]Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[BGNDVIDEO 205]
+																																																									>>>
+																																																										[mark_790313417a53d817ku7r][GOTO START]
+																																																				[payment_fail2]Что то не так, попробуй еще раз.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
+																																																					[GOTO buy_episodes]
 																																							[take_it_loshara]Получи, лошара!!! <пнуть>
 																																								[Mark_Final10][FINAL Лох с сотрясением мозга попал в больницу, а ты в ментовку. Плохой результат.][VIDEO 411][AUDIO Punch]
 																																							<ляснуть по шарабану>[VIDEO 410]
@@ -162,10 +177,18 @@
 																				[mark_n10i65ga8526q4euu2lt]Ага, 30 нокаутов и всего 2 поражения...[VIDEO 301][AUDIO Yeah30knockOuts][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
 																					[GOTO ok_go_out1]
 																	[GOTO ok_go_out]
-													[donate]Достать лопатник.
-														[mark_ht148aj862wm21q30ogd][NAVIGATEURL https://money.yandex.ru/embed/shop.xml?account=41001220674141&quickpay=shop&payment-type-choice=on&writer=seller&targets=На развитие проекта&targets-hint=&default-sum=50&button-text=01&mail=on" width="450" height="199"]
+													[donate]Дай мобилу посмотреть за денежку.
+														[mark_ht148aj862wm21q30ogd]{this.productId = "com.kri_games.sg2.coin1";'';}{script getPayment}Давай денежку.[VIDEO 301][AUDIO give_coin]
 															
-																[mark_29quy4j3a76s4d9p9747][GOTO START]
+																[wait]...[VIDEO 205][AUDIO silent_2]
+																	
+																		[mark_y9ehy9jx40feb58j815p]{script checkPayment}
+																			
+																				[payment_success]...[VIDEO 408][AUDIO silent_2.9]
+																					
+																						[mark_hviwf6y20h6n5fio27u2][FINAL Лох оказался боксером!][VIDEO 315][AUDIO OkTakeLook]
+																				[payment_fail]Что то не так, попробуй еще раз.[VIDEO 301][AUDIO {this.lang}/tryagain][BGNDVIDEO 205]
+																					[GOTO donate]
 									[ofelak_come_here]Слух, офелак, сюда подойди...
 										[Mark_Final7][FINAL Лох испугался и убежал. Отрицательный финал.][VIDEO 108][AUDIO silent_5]
 							Да, ты. Сюда подойди.
@@ -186,4 +209,4 @@
 							[GOTO hey_stop_come_here]
 							[GOTO ofelak_come_here]
 				[316][FINAL Время истекло...][VIDEO 316][AUDIO silent_3.8]
-	[GOTO donate]
+	[GOTO buy_episodes]
