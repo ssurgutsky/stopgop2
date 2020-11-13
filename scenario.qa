@@ -1,4 +1,4 @@
-[START]Симулятор общения с гопником, часть 2.[BGNDIMAGE Intro.jpg][ANSWERSORDER OFF][MUSIC Intro]{this.lang='ru';''}{script initSystem}
+[START]Симулятор общения с гопником, часть 2.[BGNDIMAGE Intro.jpg][ANSWERSORDER ON][MUSIC Intro]{this.lang='ru';''}{script initSystem}
 	НАЧАТЬ ИГРУ / START THE GAME
 		[mark_s4ra74776n94719r1z62]...[ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][VIDEO 100][AUDIO silent_7.5][AMBIENT AmbientStreet][MUSIC NONE]
 			
@@ -44,6 +44,7 @@
 																																											
 																																												[mark_9gj623q06a131xzs9n5m]Главный финал! Тебе удалось протрясти лоха! Но...[BGNDVIDEO Titles][MUSIC NONE]
 																																													[GOTO donate]
+																																													[GOTO donationalert]
 																																							[take_it_loshara]Получи, лошара!!! <пнуть>
 																																								[Mark_Final10][FINAL Лох с сотрясением мозга попал в больницу, а ты в ментовку. Плохой результат.][VIDEO 411][AUDIO Punch]
 																																							<ляснуть по шарабану>[VIDEO 410]
@@ -162,7 +163,7 @@
 																				[mark_n10i65ga8526q4euu2lt]Ага, 30 нокаутов и всего 2 поражения...[VIDEO 301][AUDIO Yeah30knockOuts][ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][BGNDVIDEO 206]
 																					[GOTO ok_go_out1]
 																	[GOTO ok_go_out]
-													[donate]Достать лопатник.
+													[donate]Яндекснуть манями.
 														[mark_ht148aj862wm21q30ogd][NAVIGATEURL https://money.yandex.ru/embed/shop.xml?account=41001220674141&quickpay=shop&payment-type-choice=on&writer=seller&targets=На развитие проекта&targets-hint=&default-sum=50&button-text=01&mail=on" width="450" height="199"]
 															
 																[mark_29quy4j3a76s4d9p9747][GOTO START]
@@ -187,3 +188,7 @@
 							[GOTO ofelak_come_here]
 				[316][FINAL Время истекло...][VIDEO 316][AUDIO silent_3.8]
 	[GOTO donate]
+	[donationalert]Дать денежку
+		[mark_n4f3t5qf3l1tjoui2c2f][NAVIGATEURL https://www.donationalerts.com/r/serjionio]
+			
+				[mark_xw21sf4q2mxo3q0x9b78][GOTO START]
