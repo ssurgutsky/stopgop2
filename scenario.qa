@@ -1,4 +1,4 @@
-[START]Симулятор общения с гопником, часть 2. v.{this.game_version}[BGNDIMAGE Intro.jpg][ANSWERSORDER ON][MUSIC Intro]{this.lang='ru';''}{script initSystem}
+[START]Симулятор общения с гопником, часть 2.\nv1.{this.game_version}[BGNDIMAGE Intro.jpg][ANSWERSORDER ON][MUSIC Intro]{this.lang='ru';''}{script initSystem}
 	НАЧАТЬ ИГРУ / START THE GAME
 		[mark_s4ra74776n94719r1z62]...[ANSWERTIME 30][TIMEEXPIRED 316][ANSWERSORDER random][VIDEO 100][AUDIO silent_7.5][AMBIENT AmbientStreet][MUSIC NONE]
 			
